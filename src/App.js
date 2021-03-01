@@ -7,9 +7,9 @@ import './App.css';
 class App extends Component {
 
   state = {
-    titre : 'Mon catalogue voitures'
+    titre : 'Mon catalogue voitures via le state directement'
   }
-
+ 
 
   changeTitle = (e) =>{
     this.setState({
