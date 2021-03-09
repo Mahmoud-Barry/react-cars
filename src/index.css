@@ -16,3 +16,23 @@ h1.styled{
   color: red;
   text-transform: uppercase;
 }
+
+.carsTable {
+   border-collapse: collapse;
+   width: 60%;
+   margin: 20px auto;
+}
+
+.carsTable td, .carsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 33%;
+  text-align: center;
+}
+
+.carsTable th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: blueviolet;
+  color: white;
+}

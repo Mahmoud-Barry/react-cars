@@ -7,11 +7,11 @@ const Car = ({children, color , year}) => {
     if(children){
 
         return (
-            <div style= { {backgroundColor: 'pink', padding: '5px', width: '400px', margin: '5px auto'}}>
-                <p>Marque : { children } </p>
-                <p>Age : { year } </p>
-                {colorInfo}
-            </div>
+            <tr>
+                <td><p>Marque : { children } </p></td>
+                <td><p>Age : { year } </p></td>
+                <td>{colorInfo}</td>
+            </tr>
         )
 
     } else{
